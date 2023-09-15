@@ -1,9 +1,9 @@
 name: Stats CI
 on:
   push:
-    branches: [ "sum_two" ]
+    branches: [ "stats_descriptive.py" ]
   pull_request:
-    branches: [ "sum_two" ]
+    branches: [ "stats_descriptive.py" ]
   workflow_dispatch:
 
 jobs:
@@ -21,5 +21,5 @@ jobs:
       run: make lint
     - name: Test
       run: make test
-    - name: Run main script
+    - name: Run stats_descriptive script
       run: python stats_descriptive.py
