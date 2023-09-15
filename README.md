@@ -18,7 +18,7 @@ The aim of the project is to utilize the skeleton repository created in the earl
 4. Summary_statistics.md gives a summary of the output obtained after running the code. 
 
 
-The output of the visualization is :
+The output of the visualization is:
 
 
 ![Visualization using Bar Chart](https://github.com/nogibjj/IDS_706_ag758_proj2/blob/main/Visualization.png)
